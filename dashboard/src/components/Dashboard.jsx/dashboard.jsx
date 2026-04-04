@@ -1,10 +1,15 @@
 import React from 'react'
+import { TopBar } from './TobBar'
+import { Grid } from './Grid'
 
 export const Dashboard = () => {
   return (
-    <div>
-      <div className='bg-white rounded-lg pb-4 shadow h-[200vh]' ></div>
-    </div>
+ 
+      <div className='bg-white rounded-lg pb-4 shadow h-[200vh]' >
+        <TopBar />
+        <Grid />
+      </div>
+   
   )
 }
 
