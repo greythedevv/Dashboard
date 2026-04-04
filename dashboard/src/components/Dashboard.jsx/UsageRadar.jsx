@@ -85,4 +85,4 @@ export const UsageRadar = () => {
       </div>
     </div>
   );
-};
+}
